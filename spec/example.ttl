@@ -1,0 +1,32 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns0: <http://data.europa.eu/esco/model#> .
+
+<http://data.europa.eu/esco/label/001f80d9-2024-4774-a335-bf78449a47e0>
+    <http://mu.semte.ch/vocabularies/core/uuid> "001f80d9-2024-4774-a335-bf78449a47e0" ;
+    <http://purl.org/dc/terms/identifier> "ESCO-CTC: 39432" ;
+    a ns0:Label, <http://purl.org/iso25964/skos-thes#PreferredTerm>, <http://www.w3.org/2008/05/skos-xl#Label> ;
+    <http://www.w3.org/2008/05/skos-xl#literalForm> "diagnose psychiatric symptoms"@en .
+
+<http://data.europa.eu/esco/label/00712a85-7610-4af2-ac47-6e5fafd0f4b8>
+    <http://purl.org/dc/terms/identifier> "ESCO-CTC: 61801" ;
+    a ns0:Label, <http://purl.org/iso25964/skos-thes#PreferredTerm>, <http://www.w3.org/2008/05/skos-xl#Label> ;
+    <http://www.w3.org/2008/05/skos-xl#literalForm> "hygiene in a health care setting"@en .
+
+<http://data.europa.eu/esco/skill/0b97876e-3d91-4a82-8b83-af4692ed3ffc>
+    ns0:editorialStatus "prepared" ;
+    ns0:referenceLanguage "en"^^<http://www.w3.org/2001/XMLSchema#language> ;
+    ns0:skillReuseLevel <http://data.europa.eu/esco/SkillReuseLevel#iC.SectorSpecific> ;
+    ns0:skillType <http://data.europa.eu/esco/SkillCompetenceType#iC.Skill> ;
+    <http://mu.semte.ch/vocabularies/core/uuid> "0b97876e-3d91-4a82-8b83-af4692ed3ffc" ;
+    <http://purl.org/dc/terms/contributor> <http://data.europa.eu/esco/iC.agent.SREF.3> ;
+    <http://purl.org/dc/terms/created> "2014-09-10T10:50:57+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/description> "To independently give advice to, instruct and support persons needing nursing care and their attachment figures."@en ;
+    <http://purl.org/dc/terms/identifier> "ESCO-CTC: 43393" ;
+    <http://purl.org/dc/terms/language> "en"^^<http://www.w3.org/2001/XMLSchema#language> ;
+    <http://purl.org/dc/terms/modified> "2015-04-21T13:48:45+00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+    <http://purl.org/dc/terms/replaces> "http://data.europa.eu/esco/skill/0b97876e-3d91-4a82-8b83-af4692ed3ffc" ;
+    a ns0:Concept, ns0:MemberConcept, ns0:SimpleConcept, ns0:Skill, <http://www.w3.org/2004/02/skos/core#Concept> ;
+    <http://www.w3.org/2004/02/skos/core#broader> <http://data.europa.eu/esco/skill/ff89c5e6-f641-46bf-b724-542900df74c2> ;
+    <http://www.w3.org/2004/02/skos/core#editorialNote> "<div><div><header>Comment by Paul De Raeve at 2014-09-12 11:18:11+00:00</header><div>This competence is set in the Directive 2005/36/EC on the Mutual Recognition of Professional Qualifications, amended by Directive 2013/55/EU</div></div></div>"@en ;
+    <http://www.w3.org/2004/02/skos/core#inScheme> <http://data.europa.eu/esco/ConceptScheme/ESCO_Skills> ;
+    <http://www.w3.org/2008/05/skos-xl#prefLabel> <http://data.europa.eu/esco/label/1a05793c-0f4b-4840-aa11-ba77a8b98a6b> .

@@ -5,8 +5,6 @@ class SesameClient
     @select_client = Sparql::Client.new(select_endpoint)
     @update_client = Sparql::Client.new(update_endpoint)
   end
-
-  def query(query)
 end
 class Importer::UploadHandler
   attr_accessor :base_uri, :incremental
